@@ -30,3 +30,12 @@
   align-items: center;
 }
 
+body{
+  font-family: 'Ubuntu';
+
+}
+
+.bold{
+  font-weight: bold;
+}
+
