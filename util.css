@@ -25,9 +25,18 @@
 .items-center{
   justify-content: space-between;
 }
+.jus-center{
+  justify-content: center;
+}
 
 .align{
   align-items: center;
+}
+
+
+
+.flex-col{
+  flex-direction: column;
 }
 
 body{
@@ -39,3 +48,34 @@ body{
   font-weight: bold;
 }
 
+.my{
+  margin-top: 13px;
+  margin-bottom: 13px;
+
+
+}
+
+.px-2{
+  padding-right: 13px;
+  padding-left: 13px;
+}
+
+
+.text-blue{
+  color:rgba(227, 74, 56, 1);
+}
+
+.btn{
+  padding: 7px 12px;
+  cursor: pointer;
+  border: none;
+  border: 2px solid white;
+  color: white;
+  background-color:  rgba(227, 74, 56, 1);
+  border-radius: 6px;
+
+}
+
+.overflow-hidden{
+  overflow: hidden;
+}
