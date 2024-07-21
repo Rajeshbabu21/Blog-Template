@@ -1,0 +1,22 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* for contentt namd footer */
+.mx-width-1{
+  max-width: 233px;
+
+}
+
+/* for namvigation size */
+.mx-width-2{
+  max-width: 533px;
+}
+
+.m-auto
+{
+  margin: auto;
+
+}
