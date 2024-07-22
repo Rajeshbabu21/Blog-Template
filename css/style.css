@@ -154,7 +154,21 @@
   padding: 20px;
       margin: 5px;
   /* align-items: center; */
+}
+
+.year-box{
   position: absolute;
+  width: 234px;
+  /* right: 419px; */
+  right: 119px;
+  /* background-color: red; */
+  height: 255px;
+  top: 100px;
+
+}
+
+.year-box div{
+  margin-top: 10px;
 }
 
 .home-art-content
