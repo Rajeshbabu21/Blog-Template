@@ -160,8 +160,25 @@
   padding: 25px;
 }
 
+.home-art-content a {
+  text-decoration: none;
+  /* color: var(--main-bg-color);
+   */
+   color: black;
+
+}
+
+
+.home-art-content span{
+  line-height: 25px;
+}
+
+.home-art-content a :hover{
+  color: var(--main-bg-color);
+}
+
 .home-art img{
-  width: 300px;
+  width: 270px;
 }
 
 .footer a{
