@@ -59,3 +59,14 @@
 
 
 }
+
+.my-2{
+  margin-top: 32px;
+  margin-bottom: 32px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+
+
+.center{
+  text-align: center;
+}
