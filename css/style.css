@@ -1,7 +1,7 @@
 .navigation
 {
   font-family: var(--font1);
-  height: 74px;
+  /* height: 74px; */
   margin-top: 20px;
   /* background-color: red; */
   display: flex;
@@ -94,7 +94,8 @@
 }
 
 .content{
-  height: 395px;
+  /* to get the fixed size */
+  height: 100%;
   /* background-color: rgb(245, 245, 248); */
   display: flex;
   margin-top: 32px;
@@ -162,10 +163,10 @@
   position: absolute;
   width: 234px;
   /* right: 419px; */
-  right: 119px;
+  right: 14px;
   /* background-color: red; */
   height: 255px;
-  top: 100px;
+  top: 28px;
 
 }
 
@@ -181,6 +182,7 @@
   justify-content: center;
   /* align-items: center; */
   padding: 25px;
+  line-height: 25px;
 }
 
 .home-art-content a {
@@ -192,9 +194,9 @@
 }
 
 
-.home-art-content span{
-  line-height: 25px;
-}
+/* .home-art-content span{
+  line-height: 50px;
+} */
 
 .home-art-content a :hover{
   color: var(--main-bg-color);
@@ -215,5 +217,15 @@
 
 .footer p {
   color: white;
+}
+
+.year-box h3{
+  padding-top: 8px;
+  margin-left: 2px;
+  /* padding-left: 4px; */
+}
+
+.year-box input{
+  margin-left: 2px;
 }
 
